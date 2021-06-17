@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Locate the user</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
+
+    style 
+        include ../static/grindstyle.css
+</head>
+
+<body>
+    
+    <div id="map" ></div>
+    <div id="distance" class="distance-container">
+        <input type="hidden" id="apiname" placeholder="Name of user" style="margin:10px" value="#{userdata.name}">
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="long"></div>
+
+    <div id="lat"></div>
+
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
+    <script src="../static/grind.js">
+       
+    </script>
+
+</body>
+
+</html>
+
+
+//- include ../static/test.html

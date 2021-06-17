@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> #{title}</title>
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>if (window.history.replaceState) { window.history.replaceState(null, null, window.location.href); }</script>
+
+    style
+        include ../static/style.css
+
+
+</head>
+
+<body style="background-color: black;">
+    <nav class="navbar navbar-inverse" style="margin-bottom: 0%;">
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="https://media.emailonacid.com/wp-content/uploads/2018/03/EOA-footer-logo-LtIcon.png" alt="Logo" style="width:50px;">
+                </a>
+                <a class="navbar-brand" href="#">burn_G-mail_Sender</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="https://code.dcoder.tech/feed/project/609dfe8ee13ab62fe94d1e81/corona-map">Corona map</a>
+                </li>
+                <li><a href="https://code.dcoder.tech/feed/project/609eabceb9b4c92abf120f87/burn_chatbox">Chatting System</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li style="display:#{display}"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li style="display:#{display}"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li style="display:#{welcome}"><a href="#"><span class="glyphicon glyphicon"></span> WELCOME &nbsp; #{userdata.name} </a></li>
+                <li style="display:#{welcome}"><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> LogOut</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="centre statusscreen">
+        <img src="../static/status.jpg" class="statustopimg">
+        <div class="center">
+            <div class="details" style="float: left;">NAME : &nbsp;#{userdata.name}</div>
+            <div class="details" style="float: right;">LEVEL : 1</div>
+        </div>
+        <br>
+        <div class="center">
+            <div class="details" style="float: left;">JOB :&nbsp; #{userdata.profession}</div>
+            <div class="details" style="float: right;">FATIGUE : &nbsp;<span id="fat"></span></div>
+        </div>
+        <br>
+        <div class="center">
+            <div class="details" >TITLE : CODER</div>
+        </div>
+        <div class = "center"><div class="hl"></div></div>
+        <div class = "center"><div style="float: right;"><a href="/raisestats" id="startgrind" style="color: aliceblue;" onmouseover="bigImg()" onmouseout="normalImg()">◆</a> </div><div id="levelup" style="display: none; float: right;">RAISE STATS</div></div>
+        <br>
+        <div class = "center"><div class="hl"></div></div>
+        <div class="center">
+            <div class="details" style="float: left;">•STRENGHT : &nbsp;<span id="str"></span></div>
+            <div class="details" style="float: right;">•VITALITY : 1</div>
+        </div>
+        <br>
+        <div class="center">
+            <div class="details" style="float: left;">•AGILITY :&nbsp;<span id="agi"></span></div>
+            <div class="details" style="float: right;">•INT : 1</div>
+        </div>
+        <br>
+        <img src="../static/stausbot.jpg" alt=""/ class="statusbotimg">
+    </div>
+
+
+
+
+</body>
+<script> document.getElementById("str").innerHTML = parseFloat(`#{userdata.distCovered}`/10 + 1).toFixed(2)</script>
+<script> document.getElementById("agi").innerHTML = parseFloat(`#{userdata.distCovered}`/5 + 1).toFixed(2); console.log(`#{userdata.distCovered}`)</script>
+<script> var x = document.getElementById("levelup"); function bigImg() {x.style.display = "block";}; function normalImg() {x.style.display = "none";}</script>
+</html>

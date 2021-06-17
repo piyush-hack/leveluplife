@@ -1,0 +1,237 @@
+{
+    "beg": {
+        "day1": {
+            "exc1": {
+                "name": "mountain climber",
+                "time": "00:30",
+                "imgsrc": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/fitgif-friday-mini-band-mountain-climb-thumbnail-override-1515520802.gif"
+            },
+            "exc2": {
+                "name": "squats",
+                "time": "*16",
+                "imgsrc": "https://www.verywellfit.com/thmb/oH5Splr-sESuhnZTj0VwwzTmFmc=/3000x2000/filters:no_upscale():max_bytes(150000):strip_icc()/79--Sumo-SquatGIF-df6fd051e5c1451f93e6e5fa5b6b420f.gif"
+            },
+            "exc3": {
+                "name": "high stepping",
+                "time": "00:15",
+                "imgsrc": "https://im.indiatimes.in/media/content/2015/Oct/ezgif%20com-resize%205_1445937953.gif"
+            },
+            "exc4": {
+                "name": "pushups",
+                "time": "*3",
+                "imgsrc": "https://www.verywellfit.com/thmb/wFOclHli_BjZU_VmNrVQsHFrMR4=/1500x844/smart/filters:no_upscale()/Verywell-42-3498282-Pushup01-1596-5994a0f8519de20010b3bdd3.gif"
+            },
+            "exc5": {
+                "name": "reverse crunches",
+                "time": "*16",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2020/10/400x400_Exercises_That_Help_You_Get_V_Reverse_Crunches.gif"
+            },
+            "exc6": {
+                "name": "plank",
+                "time": "00:15",
+                "imgsrc": "https://seven.app/media/images/Plank.gif"
+            },
+            "exc7": {
+                "name": "cobra stretch",
+                "time": "00:30",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2019/08/400x400_Best_Ways_to_Stretch_Lats_Cobra.gif"
+            }
+        },
+        "day2": {
+            "exc1": {
+                "name": "mountain climber",
+                "time": "00:30",
+                "imgsrc": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/fitgif-friday-mini-band-mountain-climb-thumbnail-override-1515520802.gif"
+            },
+            "exc2": {
+                "name": "triceps dips",
+                "time": "*16",
+                "imgsrc": "https://thumbs.gfycat.com/CompleteZigzagFossa-max-1mb.gif"
+            },
+            "exc3": {
+                "name": "jumping jacks",
+                "time": "00:30",
+                "imgsrc": "https://cdn.dribbble.com/users/2931468/screenshots/5720362/jumping-jack.gif"
+            },
+            "exc4": {
+                "name": "longarm crunches",
+                "time": "*16",
+                "imgsrc": "https://j.gifs.com/vboQM2.gif"
+            },
+            "exc5": {
+                "name": "bicycle crunches",
+                "time": "*16",
+                "imgsrc": "https://i.pinimg.com/originals/d8/76/16/d87616d4b21e886f009b24fe66db69d6.gif"
+            },
+            "exc6": {
+                "name": "plank",
+                "time": "00:15",
+                "imgsrc": "https://seven.app/media/images/Plank.gif"
+            },
+            "exc7": {
+                "name": "cobra stretch",
+                "time": "00:30",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2019/08/400x400_Best_Ways_to_Stretch_Lats_Cobra.gif"
+            }
+        },
+        "day3": {
+            "exc1": {
+                "name": "mountain climber",
+                "time": "00:30",
+                "imgsrc": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/fitgif-friday-mini-band-mountain-climb-thumbnail-override-1515520802.gif"
+            },
+            "exc2": {
+                "name": "jumping jacks",
+                "time": "00:30",
+                "imgsrc": "https://cdn.dribbble.com/users/2931468/screenshots/5720362/jumping-jack.gif"
+            },
+            "exc3": {
+                "name": "abdominal crunches",
+                "time": "*16",
+                "imgsrc": "https://www.verywellfit.com/thmb/U5UnrNk7mnHdTfcZdPJyMDNGzbM=/1500x844/smart/filters:no_upscale()/Verywell-1-2696610-AbdominalCrunch01-1853copy-599463c4d088c00013e2cad9.gif"
+            },
+            "exc4": {
+                "name": "heel touch",
+                "time": "*16",
+                "imgsrc": "https://media3.giphy.com/media/HRTRkBuLpUqI6CrJhf/giphy.gif"
+            },
+            "exc5": {
+                "name": "bicycle crunches",
+                "time": "*16",
+                "imgsrc": "https://i.pinimg.com/originals/d8/76/16/d87616d4b21e886f009b24fe66db69d6.gif"
+            },
+            "exc6": {
+                "name": "flutter kicks",
+                "time": "00:30",
+                "imgsrc": "https://i.pinimg.com/originals/04/e4/42/04e4425ceaf57c8d34b37837762044b5.gif"
+            },
+            "exc7": {
+                "name": "plank",
+                "time": "00:15",
+                "imgsrc": "https://seven.app/media/images/Plank.gif"
+            },
+            "exc8": {
+                "name": "cobra stretch",
+                "time": "00:30",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2019/08/400x400_Best_Ways_to_Stretch_Lats_Cobra.gif"
+            }
+        },
+        "day4":{
+            "exc1" : "rest"
+        },
+        "day5": {
+            "exc1": {
+                "name": "skiping without rope",
+                "time": "00:30",
+                "imgsrc": "https://media.self.com/photos/57d5e86846d0cb351c8c45e4/master/w_400%2Cc_limit/MOCK_JUMP_ROPE.gif"
+            },
+            "exc2": {
+                "name": "lungs",
+                "time": "*16",
+                "imgsrc": "https://media.tenor.com/images/680f48342e13f2e6ab75918357998392/tenor.gif"
+            },
+            "exc3": {
+                "name": "pushups",
+                "time": "*3",
+                "imgsrc": "https://www.verywellfit.com/thmb/wFOclHli_BjZU_VmNrVQsHFrMR4=/1500x844/smart/filters:no_upscale()/Verywell-42-3498282-Pushup01-1596-5994a0f8519de20010b3bdd3.gif"
+            },
+            "exc4": {
+                "name": "reverse crunches",
+                "time": "*16",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2020/10/400x400_Exercises_That_Help_You_Get_V_Reverse_Crunches.gif"
+            },
+            "exc5": {
+                "name": "heel touch",
+                "time": "*16",
+                "imgsrc": "https://media3.giphy.com/media/HRTRkBuLpUqI6CrJhf/giphy.gif"
+            },
+            "exc6": {
+                "name": "plank",
+                "time": "00:15",
+                "imgsrc": "https://seven.app/media/images/Plank.gif"
+            },
+            "exc7": {
+                "name": "cobra stretch",
+                "time": "00:30",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2019/08/400x400_Best_Ways_to_Stretch_Lats_Cobra.gif"
+            }
+        },
+        "day6": {
+            "exc1": {
+                "name": "skiping without rope",
+                "time": "00:30",
+                "imgsrc": "https://media.self.com/photos/57d5e86846d0cb351c8c45e4/master/w_400%2Cc_limit/MOCK_JUMP_ROPE.gif"
+            },
+            "exc2": {
+                "name": "triceps dips",
+                "time": "*16",
+                "imgsrc": "https://thumbs.gfycat.com/CompleteZigzagFossa-max-1mb.gif"
+            },
+            "exc3": {
+                "name": "high stepping",
+                "time": "00:30",
+                "imgsrc": "https://im.indiatimes.in/media/content/2015/Oct/ezgif%20com-resize%205_1445937953.gif"
+            },
+            "exc4": {
+                "name": "squat pulses",
+                "time": "*16",
+                "imgsrc": "https://i.pinimg.com/originals/b1/08/36/b1083670d171f4e6b23780847b90e518.gif"
+            },
+            "exc5": {
+                "name": "bicycle crunches",
+                "time": "*16",
+                "imgsrc": "https://i.pinimg.com/originals/d8/76/16/d87616d4b21e886f009b24fe66db69d6.gif"
+            },
+            "exc6": {
+                "name": "plank",
+                "time": "00:15",
+                "imgsrc": "https://seven.app/media/images/Plank.gif"
+            },
+            "exc7": {
+                "name": "cobra stretch",
+                "time": "00:30",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2019/08/400x400_Best_Ways_to_Stretch_Lats_Cobra.gif"
+            }
+        },
+        "day7": {
+            "exc1": {
+                "name": "skiping without rope",
+                "time": "00:30",
+                "imgsrc": "https://media.self.com/photos/57d5e86846d0cb351c8c45e4/master/w_400%2Cc_limit/MOCK_JUMP_ROPE.gif"
+            },
+            "exc2": {
+                "name": "triceps dips",
+                "time": "*16",
+                "imgsrc": "https://thumbs.gfycat.com/CompleteZigzagFossa-max-1mb.gif"
+            },
+            "exc3": {
+                "name": "lungs",
+                "time": "*16",
+                "imgsrc": "https://media.tenor.com/images/680f48342e13f2e6ab75918357998392/tenor.gif"
+            },
+            "exc4": {
+                "name": "longarm crunches",
+                "time": "*16",
+                "imgsrc": "https://j.gifs.com/vboQM2.gif"
+            },
+            "exc5": {
+                "name": "reverse crunches",
+                "time": "*16",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2020/10/400x400_Exercises_That_Help_You_Get_V_Reverse_Crunches.gif"
+            },
+            "exc6": {
+                "name": "plank",
+                "time": "00:15",
+                "imgsrc": "https://seven.app/media/images/Plank.gif"
+            },
+            "exc7": {
+                "name": "cobra stretch",
+                "time": "00:30",
+                "imgsrc": "https://post.healthline.com/wp-content/uploads/2019/08/400x400_Best_Ways_to_Stretch_Lats_Cobra.gif"
+            }
+        },
+        "day8" : {
+            "exc1" : "rest"
+        }
+    }
+}

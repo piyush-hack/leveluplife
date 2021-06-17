@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> #{title}</title>
+
+    
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>if(window.history.replaceState){ window.history.replaceState(null, null, window.location.href);}</script>    
+
+    style 
+        include ../static/style.css
+
+
+</head>
+<body style="background-color: black;">
+    <nav class="navbar navbar-inverse" style="margin-bottom: 0%;">
+        
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img src="https://media.emailonacid.com/wp-content/uploads/2018/03/EOA-footer-logo-LtIcon.png" alt="Logo" style="width:50px;">
+            </a>
+            <a class="navbar-brand" href="#">burn_G-mail_Sender</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="https://code.dcoder.tech/feed/project/609dfe8ee13ab62fe94d1e81/corona-map">Corona map</a></li>
+            <li><a href="https://code.dcoder.tech/feed/project/609eabceb9b4c92abf120f87/burn_chatbox">Chatting System</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+        </div>
+    </nav>
+        
+    
+    
+    <div style="margin: 0 auto;width:70%">
+        <div>
+            <br><br>
+            | #{message}
+            <br>
+            | #{check}
+            <br>
+        </div>
+        <form action="/signup" method="POST" id="contactme" style="display: #{style} ">
+            <div class="form-group">
+            <label for="name">Name</label>
+            <div id="allnames" style="display:none"> | #{allnames} </div>
+            <input type="text" class="form-control" id="name" name="name" required onchange="enablesubmit()" oninput="checkname()">
+            <div id="warnname">
+            </div>
+            </div>
+            <div class="form-group">
+            <label for="psd">Pass : </label>
+            <input type="password" class="form-control" id="psd" name="psd" onchange="enablesubmit()" required>
+            </div>
+            <div class="form-group">
+            <label for="psd">Conf Pass : </label>
+            <input type="password" class="form-control" id="confpsd" name="confpsd" placeholder="Type same pass as above" onchange="confpass()" required >
+            <div id="warn"></div>
+            </div>
+            <div class="form-group"> 
+            <label for="email">G-mail</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter gmail id only!" onchange="enablesubmit()" required>
+            </div>
+            <button type="submit" class="btn btn-default" disabled="disabled" id="submit" >Submit</button>
+        </form>
+    </div>  
+      
+    
+
+</body>
+<script src="../static/client.js"></script>
+</html>
